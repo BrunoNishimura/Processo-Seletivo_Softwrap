@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Button, Form, Col } from 'react-bootstrap';
 
 const EditUserForm = (props) => {
 

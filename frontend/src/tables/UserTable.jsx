@@ -1,11 +1,31 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Pagination, Table } from 'react-bootstrap';
+
+let active = 2;
+let items = [];
+for (let number = 1; number <=3; number++){
+    items.push(
+        <Pagination.Item key={number} active={number === active}>
+            {number}
+        </Pagination.Item>
+    );
+};
+
+const paginationBasic = (
+    <div>
+        <Pagination>{items}</Pagination>
+    </div>
+)
+
+
 
 const UserTable = (props) => {
     return (
-        <table>
+        <Table striped bordered hover size="sm">
             <thead>
                 <tr>
-                    <th>ID</th>
+                    <th>#ID</th>
                     <th>Nome</th>
                     <th>Sobrenome</th>
                     <th>Idade</th>
@@ -14,7 +34,6 @@ const UserTable = (props) => {
                     <th>Cidade</th>
                     <th>Estado</th>
                     <th>Editar</th>
-
                 </tr>
             </thead>
             <tbody>
@@ -41,12 +60,13 @@ const UserTable = (props) => {
                     })
                 ) : (
                     <tr>
-                        <td colSpan={4}>Sem Registro.</td>
+                        <td colSpan={9}>Sem Registro.</td>
                     </tr>
                 )   
                 }
             </tbody>
-        </table>
+            {paginationBasic}
+        </Table>
     )
 }
 
