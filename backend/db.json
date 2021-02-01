@@ -1,0 +1,13 @@
+{
+    "users": [
+    {
+        "name": "Arthur Luz",
+        "idade": "22",
+        "estadoCivil": "Solteiro",
+        "cpf": "000.000.000-01",
+        "cidade": "Rio de Janeiro",
+        "estado": "Rio de Janeiro",
+        "id": 3
+    }
+    ]
+} 

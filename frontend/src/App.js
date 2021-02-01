@@ -6,6 +6,7 @@ import userList from "./data.js";
 import UserTable from "./tables/UserTable";
 import AddUserForm from "./forms/AddUserForm";
 import EditUserForm from "./forms/EditUserForm";
+import TopNav from './components/template/TopNav'
 
 import axios from "axios";
 
@@ -37,27 +38,15 @@ const App = () => {
   const updateUser = (newUser) => {
     setUsers(
       users.map((user) => (user.id === currentUser.id ? newUser : user))
-    );
-    setCurrentUser(initialUser);
-    setEditing(false);
+      );
+      setCurrentUser(initialUser);
+      setEditing(false);
   };
-
+  
   return (
-    <>
-      <Navbar bg="light" variant="light">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-primary">Search</Button>
-        </Form>
-      </Navbar>
-
-      <div className="container">
+    
+    <div className="container">
+      {TopNav}
         <h1>Processo Seletivo | Softwrap</h1>
         <div className="row">
           <div className="five columns">
@@ -68,10 +57,10 @@ const App = () => {
                   currentUser={currentUser}
                   setEditing={setEditing}
                   updateUser={updateUser}
-                />
+                  />
               </div>
             ) : (
-                <div>
+              <div>
                   <h2>Add user</h2>
                   <AddUserForm addUser={addUser} />
                 </div>
@@ -83,11 +72,11 @@ const App = () => {
               users={users}
               deleteUser={deleteUser}
               editUser={editUser}
-            />
+              />
           </div>
         </div>
       </div>
-    </>
+    
   );
 };
 
