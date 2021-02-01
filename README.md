@@ -11,7 +11,6 @@
     
 [Projeto](https://github.com/BrunoNishimura/Processo-Seletivo_Softwrap) |
 [Front-End](https://github.com/BrunoNishimura/Processo-Seletivo_Softwrap/tree/main/frontend) | [Back-End](https://github.com/BrunoNishimura/Processo-Seletivo_Softwrap/tree/main/backend) | [Site](https://softwrap-backend.web.app/)
-
 </h2>
 
 ## 💻 Descrição do Teste

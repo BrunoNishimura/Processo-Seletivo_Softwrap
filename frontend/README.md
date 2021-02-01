@@ -4,16 +4,16 @@
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/DanielObara/NLW-1.0
+$ git clone https://github.com/BrunoNishimura/Processo-Seletivo_Softwrap.git
 
 # Go into the repository
-$ cd NLW-1.0/frontent
+$ cd Processo-Seletivo_Softwrap/
 
 # Install dependencies
-$ yarn install
+$ npm install
 
 # Run
-$ yarn start
+$ npm start
 
 # running on port 3000
 ```
