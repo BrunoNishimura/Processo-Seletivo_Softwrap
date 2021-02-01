@@ -1,6 +1,7 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./frontend/public/img/logo.png" width="150px" />
+    <img alt="Softwrap" title="Softwrap" src="./frontend/public/img/logo.png" width="250px" />
 </h1>
+
 
 <h2 align="center"> 
 	🗒️ Processo Seletivo
@@ -8,8 +9,8 @@
 
 <h2 align="center">
     
-[Projeto](https://github.com/BrunoNishimura/Gama-Experience-Hacker) |
-[Front-End](https://github.com/BrunoNishimura/Gama-Experience-Hacker) | [Back-End](https://docs.google.com/document/d/1LahbO0emCWAtnGTXz8aAhKYP594Fsi5imgjzH-_kyl8/edit?usp=sharing) | [Site](https://softwrap-backend.web.app/)
+[Projeto](https://github.com/BrunoNishimura/Processo-Seletivo_Softwrap) |
+[Front-End](https://github.com/BrunoNishimura/Processo-Seletivo_Softwrap/tree/main/frontend) | [Back-End](https://github.com/BrunoNishimura/Processo-Seletivo_Softwrap/tree/main/backend) | [Site](https://softwrap-backend.web.app/)
 
 </h2>
 
@@ -17,11 +18,11 @@
 
 Realizar uma aplicação Front-End e Back-End, que possua uma tabela e seja possível as seguintes ações:
 
-- [] 1. Inserir conteúdo na tabela.
-- [] 2. Editar o conteúdo da tabela.
-- [] 3. Remover conteúdo da tabela.
-- [] 4. Paginar a tabela (Pode ser realizado no front-end).
-- [] 5. Visualizar de forma clara os dados apresentados.
+1. Inserir conteúdo na tabela.
+2. Editar o conteúdo da tabela.
+3. Remover conteúdo da tabela.
+4. Paginar a tabela (Pode ser realizado no front-end).
+5. Visualizar de forma clara os dados apresentados.
 
 
 ## Descrição da Tabela
