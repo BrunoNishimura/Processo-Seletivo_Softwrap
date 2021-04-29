@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Softwrap" title="Softwrap" src="./frontend/public/img/logo.png" width="250px" />
+    <img alt="Softwrap" title="Softwrap" src="./frontend/public/assets/logo.png" width="250px" />
 </h1>
 
 <h2 align="center"> 
