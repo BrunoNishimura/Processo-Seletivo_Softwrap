@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Softwrap" title="Softwrap" src="./frontend/public/assets/logo.png" width="250px" />
+    <img alt="Softwrap" title="Softwrap" src="./public/assets/logo.png" width="250px" />
 </h1>
 
 <h2 align="center"> 
@@ -37,6 +37,7 @@ A tabela deve conter os seguintes campos:
 - Framework React (Preferência para o uso de Hooks em componentes funcionais);
 - React-Bootstrap;
 - Styled-components;
+- Commitizen;
 ### Back-end
 - Firebase;
 
