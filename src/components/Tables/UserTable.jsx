@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Table, Button } from 'react-bootstrap';
 import styled from 'styled-components';
@@ -38,7 +38,6 @@ const UserTable = (props) => {
                         <tr>
                             {/* <th>#ID</th> */}
                             <th>Nome</th>
-                            {/* <th>Sobrenome</th> */}
                             <th>Idade</th>
                             <th>CPF</th>
                             <th>Estado Civil</th>
@@ -50,12 +49,11 @@ const UserTable = (props) => {
                     <tbody>
                         {props.users.length > 0 ? (
                             props.users.map(user => {
-                                const { id, name, sobrenome, idade, cpf, estadoCivil, cidade, estado } = user;
+                                const { id, name, idade, cpf, estadoCivil, cidade, estado } = user;
                                 return (
                                     <tr key={id}>
                                         {/* <td>{id}</td> */}
                                         <td>{name}</td>
-                                        {/* <td>{sobrenome}</td> */}
                                         <td>{idade}</td>
                                         <td>{cpf}</td>
                                         <td>{estadoCivil}</td>

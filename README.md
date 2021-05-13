@@ -46,7 +46,7 @@ A tabela deve conter os seguintes campos:
 
 <details>
   <summary>Observações Gerais:</summary>
-Não são necessários, mas contarão pontos durante a avalição!
+Não são necessários, mas contarão pontos durante a avaliação!
 
 - Boas práticas!;
 - Eslint;
@@ -54,5 +54,3 @@ Não são necessários, mas contarão pontos durante a avalição!
 - Verificação de erros;
 - Cuidados com a visão do usuário!;
 </details><br />
-
-
